@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500&family=Saira&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+    color: #00738c;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.sour_gummy_text {
+    font-family: 'Sour Gummy', cursive; /* Aplica 'Sour Gummy' a elementos con esta clase */
+}
+
+.header_div {
+    background-color: #81b0b2;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul img {
+    width: 2rem; 
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+.plantita_icono {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem 3rem;
+    border: 1px solid;
+
+}
+
+li {	
+    list-style: none; 
+}
+
+main {
+    background-image: url("/background_marmol.png");
+    display: flex;
+    justify-content: space-around;
+}
+
+main :first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_potus {
+    width: 100%;
+}
+
+.div_h1 {
+    width: fit-content;
+    padding: 3rem;
+    background-color: #81b0b2;
+    border: solid 1rem #00738c;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 2rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid grey;
+}
+
+.contengo_form  {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p_form {
+    text-align: center ;
+}
+
+form {
+    width: fit-content;
+    padding: 3rem;
+    background-color: #81b0b2;  
+    border: solid 1rem #00738c;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #00738c;
+}
+
+footer :first-child {
+    color: #d6ead4;
+}
+
+footer > img {
+    width: 1rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contengo_form  {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .div_h1 {
+        margin : 1rem;
+    }
+}

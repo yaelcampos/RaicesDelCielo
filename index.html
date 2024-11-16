@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verdentu espacio</title>
+    <title>Raíces de Cielo</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Hola caca</h1>
+    <header>
+        <div class="header_div">
+            <h1 class="sour_gummy_text">Raíces de Cielo</h1>
+            <img class="plantita_icono" src="planta.png" alt="icono de planta">
+        </div>
+        <nav class="nav"> 
+            <ul>
+                <li><a href="#servicios">Servicios</a> <img src="jardinero.png" alt="foto de un potus enorme y verde"></li>
+            </ul>
+            <ul>
+                <li><a>Section 2</a><img src="jardinero.png" alt="foto de un potus enorme y verde">  </li>
+            </ul>
+            <ul>
+                <li><a>Section 2 <img src="jardinero.png" alt="foto de un potus enorme y verde"></a>  </li>
+            </ul>   <ul>
+                <li><a>Section 2 <img src="jardinero.png" alt="foto de un potus enorme y verde"></li>
+            </ul
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="div_h1"><h1 class="sour_gummy_text">Misterio resuelto: te decimos cómo elegir plantas</h1>
+                <p>Contanos tu idea, el espacio que queres llenar de vida y nosotros te ayudamos a encontrar tus plantas perfectas
+            </p></div>
+        </div>
+    <!--  
+    <div class="contengo_iframe">
+    <span>
+        <h3>En Youtube</h3>
+    </span>
+        <iframe width="315" height="415" 
+            src="https://www.youtube.com/embed/BJ4URQyYFtM" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+       -->
+       <div>
+        <img class="img_potus" src="potus.JPG" alt="foto de un potus enorme y verde">
+    </div> 
+    </main>
+
+    <section>
+
+        <div>
+            <img class="img_potus" src="captus.JPG" alt="foto de un potus enorme y verde">
+        </div>
+            <div class="contengo_form">
+                <span>
+                    <p class="p_form" >Aquí resolvemos las preguntas que todos deberíamos hacernos antes de elegir vivir con una planta.</p>
+                </span>    
+                <form action="/enviar" method="POST">
+                    <h2 class="sour_gummy_text">Encuentra tu planta ideal 🌱</h2>
+    
+                    <!-- Tipo de espacio -->
+                    <label for="space-type">¿Dónde estará la planta?</label>
+                    <select id="space-type" name="space-type">
+                        <option value="living-room">Sala de estar</option>
+                        <option value="bedroom">Dormitorio</option>
+                        <option value="office">Oficina</option>
+                        <option value="bathroom">Baño</option>
+                        <option value="kitchen">Cocina</option>
+                    </select>
+                
+                    <!-- Cantidad de luz -->
+                    <label for="light-level">¿Cuánta luz recibe el espacio?</label>
+                    <select id="light-level" name="light-level">
+                        <option value="low">Poca luz</option>
+                        <option value="medium">Luz moderada</option>
+                        <option value="high">Mucha luz</option>
+                    </select>
+                
+                    <!-- Facilidad de mantenimiento -->
+                    <label for="maintenance-level">¿Qué tan fácil quieres que sea cuidarla?</label>
+                    <select id="maintenance-level" name="maintenance-level">
+                        <option value="low">Muy fácil</option>
+                        <option value="medium">Intermedio</option>
+                        <option value="high">No importa, ¡me encanta cuidarlas!</option>
+                    </select>
+                
+                    <!-- Botón de envío -->
+                    <button type="submit">Generar recomendación</button>
+                </form>
+            </div>
+    </section>
+    <footer>
+        <h4 class="sour_gummy_text">Raíces de Cielo</h4>
+        <img src="planta.png" alt="icono de planta">
+    </footer>
 </body>
 </html>
