@@ -222,6 +222,37 @@ footer > img {
 }
 
 
+.youtube_section {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f0f8f9;
+    border-top: 2px solid #00738c; 
+}
+
+.youtube_section h2 {
+    font-size: 2rem;
+    color: #00738c;
+    margin-bottom: 1rem;
+}
+
+.contengo_iframe {
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    max-width: 100%; 
+}
+
+iframe {
+    width: 100%;
+    max-width: 315px; 
+    height: auto;
+    aspect-ratio: 315 / 415; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
 @media (max-width: 768px) {
     main {
         display: flex;
@@ -250,6 +281,10 @@ footer > img {
     }
     .main_cards {
         grid-template-columns: 1fr;
+    }
+    iframe {
+        max-width: 560px; /* Video más grande en pantallas grandes */
+        height: 315px;
     }
 }
 
